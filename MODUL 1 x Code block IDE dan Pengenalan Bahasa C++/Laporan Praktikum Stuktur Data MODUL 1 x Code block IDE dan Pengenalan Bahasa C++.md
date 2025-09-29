@@ -2,7 +2,9 @@
 # Laporan Praktikum Stuktur Data MODUL 1 x Code block IDE dan Pengenalan Bahasa C++
 
 Nama : Rifa Cahya Ariby 
+
 NIM : 103112400268
+
 Kelas : S1 IF12 07
 
 ---
@@ -598,19 +600,20 @@ Program ini menerima input angka antara 0 sampai 100, lalu mengubah angka terseb
 > 3.  Buatlah program yang dapat memberikan input dan output sbb.
 
 
-``` 
+```
+
+```
    Input: 3
    output:
 	 3 2 1 * 1 2 3
 	 2 1 * 1 2
 	 1 * 1
 	 *
-
 ```
 
 
 
-``` cpp
+```cpp
 #include <iostream>
 
 using namespace std;
@@ -687,7 +690,10 @@ int main() {
 
     return 0;
 
-}```
+}
+
+```
+
 ### output
 ![Output](output/o9m1.png)
 Program ini menerima input angka n kemudian mencetak pola segitiga, setiap baris menampilkan spasi, angka menurun dari i ke 1, satu bintang, dan angka menaik dari 1 ke i, dengan i menurun dari n sampai 1. Setelah baris tersebut, program mencetak baris terakhir berisi spasi dan satu bintang sebagai penutup pola.
