@@ -430,14 +430,23 @@ Program tersebut berfungsi untuk menukar nilai dua variabel dengan menggunakan c
 > Contoh Output:
 > 
 > Matriks Awal:
+> 
 > 1 2 3
+> 
 > 4 5 6
+> 
 > 7 8 9
+>
+> 
 > 
 > Matriks Hasil Transpose:
+> 
 > 1 4 7
+> 
 > 2 5 8
-> 3 6 9
+> 
+> 3 6 9 
+
 
 
 
