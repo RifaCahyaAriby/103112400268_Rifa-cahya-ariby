@@ -1,2 +1,0 @@
-sabar ya bang
-
