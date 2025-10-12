@@ -1,7 +1,9 @@
-# Laporan Praktikum Stuktur Data MODUL 3 x Abstract Data Tipe (ADT)
+#  Laporan Praktikum Stuktur Data MODUL 3 x Abstract Data Tipe (ADT)
 
 Nama : Rifa Cahya Ariby 
+
 NIM : 103112400268
+
 Kelas : S1 IF12 07
 
 ---
@@ -141,7 +143,7 @@ Menggabungkan dua file .cpp menjadi satu program (main.exe)
 
 ```
 
-![Output](output1modul3.png)
+![Output](output/output1modul3.png)
 
 
 
