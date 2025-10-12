@@ -20,7 +20,7 @@ Linkedlist terdiri atas simpul-simpul dengan beberapa jenis data, dan sebuah poi
 1. **Data**  = nilai yang ingin disimpan.
 2. **Pointer (penunjuk)** = alamat node berikutnya (atau sebelumnya, tergantung jenisnya).
 
-![Output](output/output8modul4.png)
+![Output](output/output8modul4.png)  
 *Gambar 1. web3school*
 
 Simpul pertama dari linked list disebut sebagai **head** atau simpul kepala. Apabila linked list berisi elemen kosong, maka nilai pointer dari head menunjuk ke NULL. Begitu juga untuk pointer berikutnya dari simpul terakhir atau simpul ekor akan menunjuk ke NULL.
@@ -434,7 +434,7 @@ int main() {
 
 ![Output](output/output3modul4.png)
 
-![Output](output4modul4.png)
+![Output](output/output4modul4.png)
 
 
 > Program di atas adalah implementasi **Single Linked List** dalam bahasa C++. Struktur `Node` berisi data dan pointer ke node berikutnya. Pointer `head` digunakan untuk menandai awal dari linked list. Program ini memiliki beberapa fungsi utama: `insertDepan` untuk menambah data di awal list, `insertBelakang` untuk menambah di akhir, dan `insertSetelah` untuk menambah setelah data tertentu. Fungsi `hapusNode` digunakan untuk menghapus data tertentu dari list, `updateNode` untuk mengganti nilai data lama menjadi baru, dan `tampilkanList` untuk menampilkan seluruh isi list secara berurutan hingga akhir (NULL). Di dalam fungsi `main`, terdapat menu interaktif yang memungkinkan pengguna memilih operasi yang ingin dilakukan sampai memilih keluar dari program.
