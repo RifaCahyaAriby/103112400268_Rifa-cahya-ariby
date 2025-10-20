@@ -15,6 +15,7 @@ Kelas : S1 IF12 07
 Searching (Pencarian Elemen List) merupakan algoritma pencarian data yang ditujukan untuk menerima sebuah argumen kunci beserta alamatnya. Pencarian dilakukan ketika diberikan sebuah list target dan sebuah kuncipencarian. Pencarian dimulai dari elemen pertama dan dilakukan sampai datayang dicari ditemukan, atau sampai data dalam list sudah habis diperiksa.
 
 ![Output](output/o7m5.png)
+
 Keuntungan menggunakan searching pada program linked list adalah:
 1. Memungkinkan pencarian data secara dinamis dalam list yang ukurannya bisa bertambah atau berkurang tanpa batas tertentu. Linked list tidak membutuhkan ukuran tetap, sehingga searching bisa dilakukan kapan saja untuk data yang terus berubah.
 2. Memberikan kemampuan untuk menemukan posisi atau keberadaan data tertentu dalam list yang elemen-elemennya tersebar secara dinamis di memori. Fungsi searching membantu mengakses data walaupun node-node tidak tersimpan secara berurutan seperti array.
@@ -1229,6 +1230,13 @@ int main() {
 
 ### Output
 ![Output](output/o1m5.png)
+
+> Program ini mengelola **data pembeli** dengan **single linked list**.  
+> Setiap node menyimpan nama pembeli dan penunjuk ke pembeli berikutnya.  
+> Melalui menu, pengguna bisa **menambah**, **menghapus**, **menyisipkan**, **mengubah**, **mencari**, dan **menampilkan** daftar pembeli.  
+> Data tersimpan dinamis dan terhubung dari `head` hingga akhir list.
+
+
 ### Soal 2
 
 2. gunakan latihan pada pertemuan minggun ini dan tambahkan searching untuk mencari buku berdasarkan judul, penulis, dan ISBN
@@ -1670,6 +1678,12 @@ int main() {
 ### Output
 
 ![Output](output/o2m5.png)
+
+> Program ini berfungsi untuk mengelola data buku menggunakan **single linked list**.  
+> Setiap buku disimpan dalam node berisi `isbn`, `judul`, dan `penulis`.  
+> Program menyediakan menu untuk **menambah**, **menampilkan**, **menghapus**, **memperbarui**, dan **mencari** buku berdasarkan data yang dimasukkan pengguna.  
+> Semua data dihubungkan secara berantai dari `head`, dan program berjalan berulang sampai pengguna memilih keluar.
+
 
 
 ### Referensi
