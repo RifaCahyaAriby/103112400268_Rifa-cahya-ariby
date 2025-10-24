@@ -11,15 +11,15 @@ Kelas : S1 IF12 07
 
 ## Dasar Teori
 
-### Double Linked List 
-Double linked list merupakan struktur data yang lebih kompleks daripada daftar tertaut tunggal (single linked list), tetapi menawarkan beberapa keuntungan. Keuntungan utama dari daftar tertaut ganda adalah memungkinkan traversal daftar yang efisien di kedua arah. Hal ini karena setiap simpul dalam daftar berisi penunjuk ke simpul sebelumnya dan penunjuk ke simpul berikutnya. Hal ini memungkinkan penyisipan dan penghapusan simpul dari daftar dengan cepat dan mudah, serta traversal daftar yang efisien di kedua arah.
+### Doubly Linked List 
+Doubly linked list merupakan struktur data yang lebih kompleks daripada singly linked list, tetapi menawarkan beberapa keuntungan. Keuntungan utama dari doubly linked list adalah memungkinkan traversal daftar yang efisien di kedua arah. Hal ini karena setiap simpul dalam daftar berisi penunjuk ke simpul sebelumnya dan penunjuk ke simpul berikutnya. Hal ini memungkinkan penyisipan dan penghapusan simpul dari daftar dengan cepat dan mudah, serta traversal daftar yang efisien di kedua arah.
 
 
 ![Output](output/o1m6.png)
 
 
-Representasi Daftar Tertaut Ganda dalam Struktur Data
-Dalam struktur data, daftar tertaut ganda direpresentasikan menggunakan node yang memiliki tiga bidang:
+Representasi Doubly Linked List dalam Struktur Data
+Dalam struktur data, Doubly Linked List direpresentasikan menggunakan node yang memiliki tiga bidang:
 1. Data
 2. Penunjuk ke simpul berikutnya ( next )
 3. Penunjuk ke simpul sebelumnya ( prev )
@@ -34,7 +34,9 @@ Dalam struktur data, daftar tertaut ganda direpresentasikan menggunakan node yan
 | Kompleksitas operasi          | Lebih sederhana        | Lebih kompleks                        |
 | Penggunaan memori             | Lebih sedikit          | Lebih banyak                          |
 | Efisiensi penghapusan/sisipan | Terbatas di ujung      | Bisa di tengah maupun ujung           |
-Selain itu, double linked list memungkinkan operasi penghapusan dan penyisipan di posisi mana pun dengan lebih efisien daripada singly linked list yang biasanya lebih mudah untuk operasi di ujung daftar saja.
+
+
+Selain itu, Doubly Linked List memungkinkan operasi penghapusan dan penyisipan di posisi mana pun dengan lebih efisien daripada Singly Linked List yang biasanya lebih mudah untuk operasi di ujung daftar saja.
 
 ## Guided
 
