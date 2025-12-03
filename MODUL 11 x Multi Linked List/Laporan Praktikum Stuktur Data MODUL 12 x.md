@@ -223,7 +223,7 @@ int main () {
  ```
 ## Output
 
-![Output](LAPRAK/LAPRAK%20SEM%203/MODUL%2011%20x%20Multi%20Linked%20List/output/o1m11.png)
+![Output](output/o1m11.png)
 
 Program ini mengimplementasikan linked list bertingkat (hierarchical) di C++ menggunakan dua struct: `ParentNode` (dengan field `info`, pointer ke `ChildNode`, dan `next`) serta `ChildNode` (dengan `info` dan `next`). Setiap parent bisa punya banyak child dalam bentuk singly linked list.
 Fungsi utama mencakup `createParent`/`createChild` untuk alokasi node baru, `insertParent` untuk tambah parent di akhir list, serta `insertChild` yang mencari parent berdasarkan `info` lalu tambah child di akhir child-listnya. Fungsi `printA11` mencetak setiap parent diikuti child-nya (misal: "Parent Node 1 -> Child Node A -> Child Node B").
@@ -1358,7 +1358,7 @@ int main(){
 
 ## Output
 
-![Output](LAPRAK/LAPRAK%20SEM%203/MODUL%2011%20x%20Multi%20Linked%20List/output/o2m11.png)
+![Output](output/o2m11.png)
 
 `multilist.h` = struktur + deklarasi  
 `multilist.cpp` = logika/implementasi  
@@ -1916,9 +1916,9 @@ int main()
 
 ## Output
 
-![Output](LAPRAK/LAPRAK%20SEM%203/MODUL%2011%20x%20Multi%20Linked%20List/output/o3m11.png)
+![Output](output/o3m11.png)
 
-![Output](o4m11.png)
+![Output](output/o4m11.png)
 Program ini membuat ADT Circular Linked List untuk menyimpan data mahasiswa (nama, NIM, jenis kelamin, dan IPK). Struktur datanya terdiri dari node (`ElmList`) yang saling terhubung membentuk lingkaran, di mana elemen terakhir menunjuk kembali ke elemen pertama.
 File circularlist.h berisi definisi struktur data dan deklarasi semua fungsi.  
 File circularlist.cpp berisi implementasi fungsi-fungsi seperti membuat list, menambah data di awal/akhir/tengah, menghapus data, mencari data berdasarkan NIM, dan menampilkan seluruh isi list.  
