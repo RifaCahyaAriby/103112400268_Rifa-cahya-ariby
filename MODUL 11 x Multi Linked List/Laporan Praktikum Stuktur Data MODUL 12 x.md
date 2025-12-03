@@ -1,4 +1,4 @@
-# Laporan Praktikum Stuktur Data MODUL 12 x Multi Linked List
+# Laporan Praktikum Stuktur Data MODUL 11 x Multi Linked List
 
 
 Nama : Rifa Cahya Ariby 
